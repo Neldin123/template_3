@@ -58,6 +58,11 @@ ul {
   left: 0;
   bottom: 150px;
 }
+@media (max-width: 991px) {
+  .dots {
+    display: none;
+  }
+}
 /* Small */
 @media (min-width: 768px) {
   .container {
